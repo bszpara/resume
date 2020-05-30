@@ -1,0 +1,29 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "deploy":"rm -rf dist/ && npm build && gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bszpara/resume.git"
+  },
+  "author": "Bartosz Szpara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bszpara/resume/issues"
+  },
+  "homepage": "https://github.com/bszpara/resume#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "gh-pages": "^3.0.0"
+  }
+}
