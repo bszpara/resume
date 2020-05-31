@@ -4,10 +4,8 @@
   "description": "",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "parcel index.html",
-    "build": "parcel build index.html",
-    "deploy":"rm -rf dist/ && npm build && gh-pages -d dist"
+    "deploy": "rm -rf dist && parcel build index.html --public-url /resume/ && gh-pages -d dist "
   },
   "repository": {
     "type": "git",
@@ -18,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/bszpara/resume/issues"
   },
-  "homepage": "https://github.com/bszpara/resume#readme",
+  "homepage": "https://bszpara.github.io/resume",
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
     "typescript": "^3.9.3"
