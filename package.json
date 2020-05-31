@@ -19,9 +19,11 @@
   "homepage": "https://bszpara.github.io/resume",
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
-    "typescript": "^3.9.3"
+    "typescript": "^3.9.3",
+    "gh-pages": "^3.0.0",
+    "tailwindcss": "^1.4.6"
   },
   "dependencies": {
-    "gh-pages": "^3.0.0"
+    "postcss-import": "^12.0.1"
   }
 }
