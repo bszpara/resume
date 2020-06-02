@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.ts"],"names":[],"mappings":";AAII,SAAS,eAAe,aAAa,QAAU,WAC3C,OAAO","file":"resume.cf9e1da1.js","sourceRoot":"..","sourcesContent":[" \n// just a stub for now , todo : print only printable  fragment\n// after safe consent template add to DOM\n\n    document.getElementById('saveAsPdf').onclick = function printPdf(){\n        window.print()\n    }\n"]}
